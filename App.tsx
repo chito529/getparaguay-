@@ -1,8 +1,11 @@
 import React from 'react';
-import './App.css'; // Optional, if styled
 
-function App() {
-  return <div>Hello, Paraguay!</div>;
-}
+const App: React.FC = () => {
+  return (
+    <div className="App">
+      <h1>Get Paraguay!</h1>
+    </div>
+  );
+};
 
 export default App;
