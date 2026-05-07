@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --luxury-gold: #C5A059;
+  --luxury-black: #1A1A1A;
+}
+
+body {
+  @apply antialiased text-luxury-black font-sans;
+}
